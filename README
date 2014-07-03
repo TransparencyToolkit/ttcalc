@@ -1,0 +1,5 @@
+This is a gem with some calculation functions for Transparency Toolkit data. To use, install ttcalc.
+
+Summing values for items with matching values for an attribute-
+t = TTCalc.new(input json)
+t.summatching("name of attribute to sum", "name of attribute to match values")
